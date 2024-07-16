@@ -45,7 +45,8 @@ Version      : 2.1
 body {
 	background: #ffffff none repeat scroll 0 0;
     color: #888888;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
     font-size: 16px;
 	-webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -53,7 +54,8 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
-	font-family: "Montserrat", sans-serif;
+	/* font-family: "Montserrat", sans-serif; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 }
 p {
 	color:#888888;
@@ -1171,10 +1173,13 @@ select option {
     background-attachment: fixed !important;
 }
 .font_style2 {
-	font-family: 'Courgette', cursive;
+	/* font-family: 'Courgette', cursive; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	
 }
 .font_style3 {
-	font-family: 'Great Vibes', cursive;
+	/* font-family: 'Great Vibes', cursive; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 }
 .btn_box_shadow:hover,
 .btn_box_shadow:focus,
@@ -1405,7 +1410,8 @@ select option {
 .dropdown-toggle::after, .dropdown-toggler::after {
 	border: 0 none;
 	content: "\f3d0";
-	font-family: ionicons;
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	/* font-family: ionicons; */
 	height: auto;
 	line-height: normal;
 	margin-left: 5px;
@@ -2160,7 +2166,8 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 .ddArrow::before {
 	content: "\f3d0";
 	color: #878787;
-	font-family: ionicons;
+	/* font-family: ionicons; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 	position: absolute;
 	right: 0;
 	top: 6px;
@@ -2767,21 +2774,24 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 }
 .list_style_1 li::before {
 	content: "\f121";
-	font-family: ionicons;
+	/* font-family: ionicons; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 	left: 0;
 	position: absolute;
 	top: 10px;
 }
 .list_style_2 li::before {
 	content: "\f3a7";
-	font-family: ionicons;
+	/* font-family: ionicons; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 	left: 0;
 	position: absolute;
 	top: 10px;
 }
 .list_style_3 li::before {
     content: "";
-    font-family: ionicons;
+    /* font-family: ionicons; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
     left: 0;
     position: absolute;
     top: 17px;
@@ -2791,7 +2801,8 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 }
 .list_style_4 li::before {
     content: "\f10b";
-    font-family: ionicons;
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+    /* font-family: ionicons; */
     left: 0;
     position: absolute;
     top: 5px;
@@ -2805,7 +2816,8 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 .list_style_5 li::before {
 	background-color: #0e93d8;
 	content: "\f121";
-	font-family: ionicons;
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	/* font-family: ionicons; */
 	left: 0;
 	position: absolute;
 	top: 10px;
@@ -4493,7 +4505,8 @@ footer .widget_title {
 	font-size: 10px;
 	content: "\f125";
 	position: absolute;
-	font-family: "Ionicons";
+	/* font-family: "Ionicons"; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 	-moz-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -5516,7 +5529,8 @@ to {
 }
 .accordion .card-header a::after {
 	content: "\f126";
-	font-family: "Ionicons";
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	/* font-family: "Ionicons"; */
 	font-size: 16px;
 	font-weight: normal;
 	position: absolute;
@@ -5538,7 +5552,8 @@ to {
 }
 .accordion_style1 .card-header a::after {
 	content: "\f208";
-	font-family: "Ionicons";
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	/* font-family: "Ionicons"; */
 	font-size: 16px;
 	font-weight: normal;
 	position: absolute;
@@ -6206,7 +6221,8 @@ select[multiple] option {
 	color: #000;
 }
 .comming_soon3 h1, .comming_soon3 h3, .comming_soon3 h4, .comming_soon3 h5,  .comming_soon3 *{
-	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
 }
 .comming_soon3 h2 {
 	font-size:3.8rem;
@@ -6395,7 +6411,8 @@ select[multiple] option {
 }
 .tweet_feed li::before {
     content: "\e74b";
-    font-family: 'themify';
+    /* font-family: 'themify'; */
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
     position: absolute;
     left: -25px;
     top: 0;
@@ -6954,7 +6971,8 @@ select[multiple] option {
 }
 .custom_select::before {
     content: "\e64b";
-    font-family: 'themify';
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+    /* font-family: 'themify'; */
     position: absolute;
     display: block;
     top: 50%;
@@ -7713,7 +7731,8 @@ select[multiple] option {
     border: 0;
 }
 .quote_style1:before {
-    font-family: "Ionicons";
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+    /* font-family: "Ionicons"; */
     content: "\f347";
     width: 48px;
     height: 48px;
@@ -7731,7 +7750,8 @@ select[multiple] option {
 	padding: 0;
 }
 .quote_style3:before {
-    font-family: "Ionicons";
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+    /* font-family: "Ionicons"; */
     content: "\f347";
     width: 48px;
     height: 48px;
@@ -7768,7 +7788,8 @@ select[multiple] option {
 	color: #444444;
 }
 .quote_style6::before {
-	font-family: "Ionicons";
+	font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+	/* font-family: "Ionicons"; */
 	content: "\f347";
 	line-height: 48px;
 	font-size: 42px;
