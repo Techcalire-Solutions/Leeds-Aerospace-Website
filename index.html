@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="assets/css/themify-icons.css">
 <!-- FontAwesome CSS -->
 <link rel="stylesheet" href="assets/css/all.min.css">
+<link rel="stylesheet" href="assets/css/demo-digital-agency.css">
 <!--- owl carousel CSS-->
 <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
@@ -37,7 +38,12 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" id="layoutstyle" href="assets/color/theme.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    *{
+        font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+    }
+</style>
 </head>
 
 <body>
@@ -63,9 +69,13 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg"> 
           <a class="navbar-brand" href="index.html">
-              <img class="logo_light" src="assets/images/logo_white.png" alt="logo" />
-              <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
-              <img class="logo_default" src="assets/images/logo_dark.png" alt="logo" />
+            <img class="logo_light" src="assets/images/site-images/logo.png" alt="logo" />
+            <img class="logo_dark"  src="assets/images/site-images/logo.png"  alt="logo" />
+              <img class="logo_default"  src="assets/images/site-images/logo.png"  alt="logo" />
+
+              <!-- <img class="logo_light" src="assets/images/logo_white.png" alt="logo" /> -->
+              <!-- <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
+              <img class="logo_default" src="assets/images/logo_dark.png" alt="logo" /> -->
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -89,38 +99,11 @@
               </ul>
           </div>
           <ul class="navbar-nav attr-nav align-items-center">
-                  <li><a href="javascript:void(0);" class="nav-link search_trigger"><i class="ion-ios-search-strong"></i></a>
-                      <div class="search-overlay">
-                          <span class="close-search"><i class="ion-ios-close-empty"></i></span>
-                          <div class="search_wrap">
-                              <form>
-                                  <input type="text" placeholder="Search" class="form-control" id="search_input">
-                                  <button type="submit" class="search_icon"><i class="ion-ios-search-strong"></i></button>
-                              </form>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="dropdown"><a class=" nav-link" href="#" data-toggle="dropdown"><i class="ion-android-cart"></i><span class="cart_count">2</span></a>
-                      <div class="cart_box dropdown-menu dropdown-menu-right">
-                          <ul class="cart_list">
-                              <li>
-                                  <a href="#" class="item_remove"><i class="ion-close"></i></a>
-                                  <a href="#"><img src="assets/images/cart_thamb1.png" alt="cart_thumb1"/>Variable product 001</a>
-                                  <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>78.00</span></span>
-                              </li>
-                              <li>
-                                  <a href="#" class="item_remove"><i class="ion-close"></i></a>
-                                  <a href="#"><img src="assets/images/cart_thamb2.png" alt="cart_thumb2"/>Ornare sed consequat</a>
-                                  <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>81.00</span></span>
-                              </li>
-                          </ul>
-                          <div class="cart_footer">
-                              <p class="cart_total"><strong>Subtotal:</strong> <span class="cart_amount"> <span class="price_symbole">$</span></span>159.00</span></p>
-                              <p class="cart_buttons"><a href="#" class="btn view-cart">View Cart</a><a href="#" class="btn checkout">Checkout</a></p>
-                          </div>
-                      </div>
-                  </li>
-              </ul>
+            <li><a href="tel:your-phone-number" class="nav-link"><i class="fa fa-phone-alt"></i></a></li>
+            <li><a href="mailto:your-email@example.com" class="nav-link"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+        
+        
       </nav>
     </div>
   </header>
@@ -131,48 +114,16 @@
 <section class="banner_section p-0 full_screen">
     <div id="carouselExampleControls" class="banner_content_wrap carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active background_bg overlay_bg" data-img-src="assets/images/banner1.jpg">
-        	<div class="banner_slide_content">
-            	<div class="container"><!-- STRART CONTAINER -->
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <div class="banner_content text_white">
-                            <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Welcome To Anger.</h2>
-                            <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Lorem is simply text of the printing and typesetting industry.</p>
-                            <a class="btn btn-default animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
-                            <a class="btn btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- END CONTAINER-->
-            </div>
-        </div>
-        <div class="carousel-item background_bg overlay_bg" data-img-src="assets/images/banner2.jpg">
+        <div class="carousel-item active overlay_bg">
         	<div class="banner_slide_content">
                 <div class="container"><!-- STRART CONTAINER -->
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 text-left">
                             <div class="banner_content text_white">
-                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">easy To build </h2>
-                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Contrary to popular belief, Lorem Ipsum is not simply random</p>
-                                <a class="btn btn-default btn-radius animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
-                            	<a class="btn btn-radius btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- END CONTAINER-->
-            </div>
-        </div>
-        <div class="carousel-item overlay_bg">
-        	<div class="banner_slide_content">
-                <div class="container"><!-- STRART CONTAINER -->
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 text-right">
-                            <div class="banner_content text_white">
-                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Faster And Easy</h2>
-                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Ipsum generators on the Internet tend to repeat predefined</p>
-                                <a class="btn btn-default btn-radius animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
-                            	<a class="btn btn-radius btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
+                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Trusted Aircraft Parts Supplier</h2>
+                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Get the right component support at the right time you need</p>
+                                <a class="btn btn-default btn-radius animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Discover More</a>
+                            	<a class="btn btn-radius btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Browse Services</a>
                             </div>
                         </div>
                     </div>
@@ -180,10 +131,45 @@
             </div>
             <div class="video_wrap">
             	<video loop autoplay muted>
-                	<source src="assets/images/sample.mp4" type="video/mp4"></source>
+                	<source src="assets/images/site-images/flightVideo.mp4" type="video/mp4"></source>
                 </video>
             </div>
+
         </div>
+
+        <div class="carousel-item  background_bg overlay_bg" data-img-src="assets/images/site-images/home1.jpg">
+        	<div class="banner_slide_content">
+            	<div class="container"><!-- STRART CONTAINER -->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;" class="banner_content text_white">
+                            <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s" style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;">Trusted Aero Parts</h2>
+                            <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Premium components for exceptional aircraft performance</p>
+                            <a class="btn btn-default animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Shop Now</a>
+                            <a class="btn btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Explore Our Range</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- END CONTAINER-->
+            </div>
+        </div>
+        <div class="carousel-item background_bg overlay_bg" data-img-src="assets/images/site-images/home2.jpg">
+        	<div class="banner_slide_content">
+                <div class="container"><!-- STRART CONTAINER -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 text-right">
+                            <div class="banner_content text_white">
+                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Quality You Can Trust for Aero Parts</h2>
+                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Engineered for safety and reliability in every flight.</p>
+                                <a class="btn btn-default btn-radius animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Request a Quote</a>
+                            	<a class="btn btn-radius btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- END CONTAINER-->
+            </div>
+        </div>
+
     </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <i class="ion-chevron-left"></i>
@@ -195,50 +181,50 @@
 </section>
 <!-- END SECTION BANNER --> 
 
-<!-- START SECTION ABOUT US -->
-<section id="about">
+<!-- START ABOUT US -->
+<section>
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12 col-sm-12"> 
+        <div class="row align-items-center justify-content-between">
+            <div class="col-xl-6 col-md-6 col-sm-12"> 
                 <div class="mb-4 mb-lg-0 animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
-                    <img src="assets/images/about_img1.png" alt="aboutimg"/> 
+                    <img src="assets/images/site-images/home3.jpg" alt="vector1"> 
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                <div class="heading_s1"> 
-                  <h1>About The Anger</h1>
-                </div>
-                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
-                <div class="row mb-4">
-                	<div class="col-sm-6">
-                    	<div class="list_style_3">
-                            <ul>
-                                <li>Multiple header layouts</li>
-                                <li>Responsive Design</li>
-                                <li>Nice Parallax Effect</li>
-                                <li>Easy to Customize</li>
-                                <li>Retina Ready</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                    	<div class="list_style_3">
-                            <ul>
-                                <li>Modern Framework</li>
-                                <li>Full Documentation</li>
-                                <li>Amazing Features</li>
-                                <li>Pixel Perfect</li>
-                                <li>unique Design</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="btn btn-outline-default">Read More</a>	
+            <div class="col-xl-5 col-md-6 col-sm-12 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+                <h2 class="mb-3" style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;">Your Aero Parts Resources Made Easy</span></h2>
+                <p style="text-align: justify;">
+
+                    If you’re looking for reliable and high-quality aero parts, you’ve come to the right place. Our extensive inventory ensures you find the components you need without any hassle. We pride ourselves on transparency and quality, so you can trust that every part meets rigorous industry standards.
+
+Our streamlined process makes ordering simple and efficient, ensuring your aircraft stays in top shape. From turbines to avionics, we provide everything necessary to keep your operations running smoothly. Explore our resources and experience seamless service with every purchase.
+
+
+
+
+
+
+
+                </p>
+                <a href="#" class="btn btn-default btn-radius">Read More</a>	
             </div>
         </div>
+        
     </div>
+    <div class="ripple_effect">
+    	<div class="circle_bg1">
+        	<span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
 </section>
-<!-- END SECTION ABOUT US --> 
+<!-- END ABOUT US ------------------>
+
+
 
 <!-- START SECTION FEATURE -->
 <section class="gray_bg small_pb">
@@ -250,8 +236,8 @@
                         <i class="icon icon-display"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Responsive Design</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Quality Assurance</h5>
+                        <p>All our parts undergo rigorous testing to ensure the highest standards of quality and performance.</p>
                     </div>
                 </div>
             </div>
@@ -261,8 +247,8 @@
                         <i class="icon icon-eye"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Retina Ready</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Expert Support</h5>
+                        <p>Our experienced team is available 24/7 to assist you with any inquiries or support you need.</p>
                     </div>
                 </div>
             </div>
@@ -272,8 +258,8 @@
                         <i class="icon icon-equalizer2"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Parallax Effact</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Innovative Solutions</h5>
+                        <p>We provide cutting-edge components that enhance the performance and safety of your aircraft.</p>
                     </div>
                  </div>
             </div>
@@ -283,8 +269,8 @@
                         <i class="icon icon-embed2"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Html5 & Css3</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Customizable Options</h5>
+                        <p>Our parts can be tailored to meet the specific needs of your aircraft and operations.</p>
                     </div>
                 </div>
             </div>
@@ -294,8 +280,8 @@
                         <i class="icon icon-lifebuoy"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Expert Support</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Global Delivery</h5>
+                        <p>We offer fast and reliable shipping to ensure you receive your parts when you need them.</p>
                     </div>
                 </div>
             </div>
@@ -305,8 +291,8 @@
                         <i class="icon icon-cog"></i>
                     </div>
                     <div class="icon_box_content">
-                        <h5>Easy To Customize</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <h5>Easy Ordering</h5>
+                        <p>Our streamlined process makes it easy to find and order the parts you need.</p>
                     </div>
                 </div>
             </div>
