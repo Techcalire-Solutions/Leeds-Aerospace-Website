@@ -2336,7 +2336,7 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	top: 0;
 }
 .blue_overlay_bg::before {
-    background-color: rgba(14,147,216,0.8);
+    /* background-color: rgba(14,147,216,0.8); */
     bottom: 0;
     content: "";
     left: 0;
