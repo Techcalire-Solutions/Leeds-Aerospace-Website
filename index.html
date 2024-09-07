@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="assets/css/themify-icons.css">
 <!-- FontAwesome CSS -->
 <link rel="stylesheet" href="assets/css/all.min.css">
+<link rel="stylesheet" href="assets/css/demo-digital-agency.css">
 <!--- owl carousel CSS-->
 <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
@@ -38,7 +39,12 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" id="layoutstyle" href="assets/color/theme.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/demo-digital-agency.css">
+<style>
+    .custom-image {
+        width: 1200px !important;
+    }
+</style>
+
 </head>
 
 <body>
@@ -58,9 +64,9 @@
     </div>
 </div>
 <!-- END LOADER --> 
- 
+
 <!-- START HEADER -->
-<!-- <header class="header_wrap fixed-top transparent-header light_skin hover_menu_style2 transparent-header">
+<header class="header_wrap fixed-top transparent-header light_skin hover_menu_style2 transparent-header">
     <div class="container">
       <nav class="navbar navbar-expand-lg"> 
           <a class="navbar-brand" href="index.html">
@@ -72,19 +78,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav">
                   <li class="dropdown">
-                      <a class="dropdown-item nav-link nav_item" href="index.html" style="color: white;">Home</a>
+                      <a class="dropdown-item nav-link nav_item" href="index.html">Home</a>
                   </li>
                   
                   <li class="dropdown">
-                      <a class="dropdown-item nav-link nav_item" href="about.html"  style="color:white;">About</a>
+                      <a class="dropdown-item nav-link nav_item" href="about.html">About</a>
                   </li>
   
                   <li class="dropdown">
-                      <a class="dropdown-item nav-link nav_item" href="services.html"  style="color: white;">Service</a>
+                      <a class="dropdown-item nav-link nav_item" href="services.html">Service</a>
                   </li>
   
                   <li class="dropdown">
-                      <a class="dropdown-item nav-link nav_item" href="contact.html"  style="color: white; ">Contact</a>
+                      <a class="dropdown-item nav-link nav_item" href="contact.html">Contact</a>
                   </li>
   
               </ul>
@@ -97,28 +103,49 @@
         
       </nav>
     </div>
-  </header> -->
+  </header>
   <!-- END HEADER --> 
 
-<!-- START COMMING SOON SECTION -->
-<section class="background_bg overlay_bg2 full_screen p-0" data-img-src="assets/images/404_bg2.jpg">
-	<div class="container h-100">
-    	<div class="row justify-content-center align-content-center h-100">
-        	<div class="col-lg-6 col-md-8 text-center">
-            	<a href="index.html" class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                    <img src="assets/images/site-images/logo_red_bg-removebg-preview.png" alt="logo" />
-                </a>
-                <h5 class="text-white my-3 my-sm-5 animation" data-animation="fadeInUp" data-animation-delay="0.3s">Our website is under Construction, We'll be back shortly.</h5> 
-                <!-- <div class="countdown_time mb-4 countdown_white animation" data-animation="fadeInUp" data-animation-delay="0.4s" data-time="2019/08/15"></div> -->
-                <div class="newsletter_form mb-4 mb-md-5 animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                    <form> 
-                        <!-- <div class="rounded_input">
-                            <input required="" placeholder="Enter Email Address" type="text">
+
+<!-- START SECTION BANNER -->
+<section class="banner_section p-0 full_screen">
+    <div id="carouselExampleControls" class="banner_content_wrap carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active overlay_bg">
+        	<div class="banner_slide_content">
+                <div class="container"><!-- STRART CONTAINER -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 text-left">
+                            <div class="banner_content text_white">
+                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Your Preferred Partner for Aircraft Components</h2>
+                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Get the right component support at the right time you need</p>
+                                <a class="btn btn-default btn-radius animation" href="about.html" data-animation="fadeInUp" data-animation-delay="1.8s">Discover More</a>
+                            	<a class="btn btn-radius btn-outline-white animation" href="services.html" data-animation="fadeInUp" data-animation-delay="1.8s">Browse Services</a>
+                            </div>
                         </div>
-                        <button type="submit" title="Subscribe" class="btn btn-default btn-radius" name="submit" value="Submit">
-                            Notify Me
-                        </button> -->
-                    </form>
+                    </div>
+                </div><!-- END CONTAINER-->
+            </div>
+            <div class="video_wrap">
+            	<video loop autoplay muted>
+                	<source src="assets/images/site-images/flightVideo.mp4" type="video/mp4"></source>
+                </video>
+            </div>
+
+        </div>
+
+        <div class="carousel-item  background_bg overlay_bg" data-img-src="assets/images/site-images/home1.jpg">
+        	<div class="banner_slide_content">
+            	<div class="container"><!-- START CONTAINER -->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;" class="banner_content text_white">
+                            <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s" style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;">Your trusted partner for aircraft components</h2>
+                            <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Premium components for exceptional aircraft performance</p>
+                            <a class="btn btn-default animation" href="about.html" data-animation="fadeInUp" data-animation-delay="1.8s">Learn more</a>
+                            <a class="btn btn-outline-white animation" href="services.html" data-animation="fadeInUp" data-animation-delay="1.8s">Explore Our Range</a>
+                        </div>
+                    </div>
                 </div>
             </div><!-- END CONTAINER-->
             </div>
@@ -129,7 +156,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 text-right">
                             <div class="banner_content text_white">
-                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Exceptional Quality, Unwavering Reliability</h2>
+                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Quality You Can Trust for Aero Parts</h2>
                                 <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Engineered for safety and reliability in every flight.</p>
                                 <a class="btn btn-default btn-radius animation" href="contact.html" data-animation="fadeInUp" data-animation-delay="1.8s">Request a Quote</a>
                             	<a class="btn btn-radius btn-outline-white animation" href="about.html" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
@@ -164,7 +191,7 @@
             </div>
             
             <div class="col-xl-5 col-md-6 col-sm-12 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
-                <h2 class="mb-3" style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;">Your Aero Parts Resources Made Easy</span></h2>
+                <h2 class="mb-3" style="font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;">Your Trusted Source for Quality Aircraft Parts</span></h2>
                 <p style="text-align: justify;">
 
                     If you’re looking for reliable and high-quality aero parts, you’ve come to the right place. Our extensive inventory ensures you find the components you need without any hassle. We pride ourselves on transparency and quality, so you can trust that every part meets rigorous industry standards.
@@ -383,7 +410,7 @@ Our streamlined process makes ordering simple and efficient, ensuring your aircr
                         </li>
                         <li>
                             <span class="ti-mobile"></span>
-                            <p>+971585183355</p>
+                            <p style="color:white">+971585183355</p>
                         </li>
                     </ul>
                 </div>
@@ -424,12 +451,19 @@ Our streamlined process makes ordering simple and efficient, ensuring your aircr
                     	<li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END COMMING SOON SECTION -->
+</footer>
+<!-- END FOOTER SECTION -->  
+
+
+<!-- END FOOTER SECTION --> 
+
+
+
+<a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
 <!-- Latest jQuery --> 
 <script src="assets/js/jquery-1.12.4.min.js"></script> 
